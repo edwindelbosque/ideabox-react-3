@@ -23,3 +23,7 @@ Card.propTypes = {
   removeIdea: PropTypes.func,
   isFavorite: PropTypes.bool
 }
+
+Card.defaultProps = {
+  isFavorite: false
+}
