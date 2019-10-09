@@ -33,11 +33,11 @@ export default class App extends Component {
   render() {
     const loadingIcon =
       (
-        <>
-          <div class="container">
-            <div class="dot dot-1"></div>
-            <div class="dot dot-2"></div>
-            <div class="dot dot-3"></div>
+        <article>
+          <div className="container">
+            <div className="dot dot-1"></div>
+            <div className="dot dot-2"></div>
+            <div className="dot dot-3"></div>
           </div>
           <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
             <defs>
@@ -47,7 +47,7 @@ export default class App extends Component {
               </filter>
             </defs>
           </svg>
-        </>
+        </article >
       );
 
     return (
